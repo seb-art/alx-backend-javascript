@@ -1,13 +1,23 @@
 {
-  "name": "0x06-unittests_in_js",
+  "name": "unittests_in_js",
   "version": "1.0.0",
-  "description": "[master 99eb10b2] unittests in javascript  1 file changed, 1 insertion(+)  create mode 100644 0x06-unittests_in_js/README.md",
-  "main": "index.js",
+  "description": "This projects is intended for JS unittest learning",
+  "main": "0-calcul.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
-  "author": "Sebastian Kimanzi",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/seb-art"
+  },
+  "keywords": [
+    "Tests",
+    "Mocha",
+    "Javascript",
+    "unittest"
+  ],
+  "author": "Sebastian K. John",
+  "license": "MIT",
   "dependencies": {
     "mocha": "^10.2.0"
   }
